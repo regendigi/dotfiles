@@ -1,0 +1,18 @@
+[core]
+	editor = \"C:\\Users\\rendy\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe\" --wait
+[color "diff"]
+	new = green bold
+	meta = cyan
+[color "status"]
+	updated = green bold
+[color "branch"]
+	current = green bold
+[color "interactive"]
+	prompt = white cyan
+[alias]
+	tree = log --graph \"--date=format:%y%m%d:%H%M\" \"--pretty=format:%C(auto)%h%d %C(bold blue)%an %Cgreen%ad  %Creset%s\"
+	log-date = log \"--date=format:%y%m%d:%H%M\" \"--pretty=format:%Cgreen%ad %C(auto)%h %C(bold blue)%an  %Creset%s\"
+	alias = ! git config --get-regexp ^alias\\. | sed -e s/^alias\\.// -e s/\\ /\\ =\\ /
+[user]
+	email = [redacted]@domain.com
+	name = Rendy Saputra
