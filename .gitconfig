@@ -14,5 +14,5 @@
 	log-date = log \"--date=format:%y%m%d:%H%M\" \"--pretty=format:%Cgreen%ad %C(auto)%h %C(bold blue)%an  %Creset%s\"
 	alias = ! git config --get-regexp ^alias\\. | sed -e s/^alias\\.// -e s/\\ /\\ =\\ /
 [user]
-	email = [redacted]@domain.com
+	email = redacted@domain.com
 	name = Rendy Saputra
